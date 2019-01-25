@@ -2,7 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AdoptComponent} from './adopt/adopt.component';
-
+import { GetInvolvedComponent} from './get-involved/get-involved.component'
 const appRoutes: Routes = [
   {
     path: '',
@@ -11,6 +11,10 @@ const appRoutes: Routes = [
   {
     path: 'adopt',
     component: AdoptComponent
+  },
+  {
+    path: 'get-involved',
+    component: GetInvolvedComponent
   }
 ];
 
