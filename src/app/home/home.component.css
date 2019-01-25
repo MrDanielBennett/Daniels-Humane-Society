@@ -1,9 +1,4 @@
-#header{
-  border-top: solid 15px Orange;
-  background: yellow;
-  border-bottom: solid 15px Orange;
-  margin-top: -8px;
-}
+
 #body{
   background: linear-gradient(rgba(255,255,255,1), rgba(255,0,0,0)), url('https://images.unsplash.com/photo-1444212477490-ca407925329e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80');
   background-position: fixed;
@@ -11,12 +6,6 @@
   margin-top: 0px;
 }
 
-
-#footer{
-  border-top: solid 15px Orange;
-  background: yellow;
-  border-bottom: solid 15px Orange;
-}
 #big-text{
   color: orange;
   font-size: 55pt;
@@ -26,8 +15,10 @@
 #bigger-text{
   font-weight: bold;
   font-size: 70pt;
+  text-shadow: 3px 3px white;
 }
-p{
-  margin-top: 0px;
-  margin-bottom: 0px;
+
+.card{
+  margin-left: 50px;
+  margin-bottom: 20px;
 }

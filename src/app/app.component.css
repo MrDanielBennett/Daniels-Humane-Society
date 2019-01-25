@@ -1,33 +1,40 @@
 #header{
-  border-top: solid 15px Orange;
-  background: yellow;
-  border-bottom: solid 15px Orange;
+  color: white;
+  border-top: solid 15px #ff8800;
+  background: #ffc219;
+  border-bottom: solid 15px #ff8800;
 
 }
-#body{
-  background: linear-gradient(rgba(255,255,255,1), rgba(255,0,0,0)), url('https://images.unsplash.com/photo-1444212477490-ca407925329e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80');
-  background-position: fixed;
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
 
 #footer{
-  border-top: solid 15px Orange;
-  background: yellow;
-  border-bottom: solid 15px Orange;
+  border-top: solid 15px #ff8800;
+  background: #ffc219;
+  border-bottom: solid 15px #ff8800;
 }
-#big-text{
-  color: orange;
-  font-size: 55pt;
-  font-style: italic;
-  text-align: center;
+
+.nav{
+ margin-left: 43%;
 }
-#bigger-text{
-  font-weight: bold;
-  font-size: 70pt;
+.nav-button{
+  border-color: #ff8809;
+  font-size: 15pt;
+  color: white;
+  background-color: #ff8800;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
-p{
-  margin-top: 0px;
-  margin-bottom: 0px;
+.donate-button{
+  border-color: #4dcaf0;
+  background-color: #4dcaff;
+}
+
+.title{
+  font-size: 25pt;
+  margin-left: 125px;
+  background-color: #ff8800;
+  width: 260px;
+  height: 100px;
+  border-radius: 5px;
+
 }
