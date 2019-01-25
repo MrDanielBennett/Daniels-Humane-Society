@@ -22,3 +22,52 @@
   margin-left: 50px;
   margin-bottom: 20px;
 }
+.card-header{
+  background-color: #3d8cdb;
+  color: white;
+  padding-bottom: 1px;
+
+}
+
+.flavor-text{
+  color: white;
+  text-align: center;
+  padding-left: 175px;
+  padding-right: 175px;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px black;
+}
+.flavor-text-header{
+  color: white;
+  text-align: center;
+  padding-left: 175px;
+  padding-right: 175px;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px black;
+}
+.image{
+  float: left;
+}
+#dog-hat{
+  height: 150px;
+  width: 120px;
+  filter: grayscale(100%);
+}
+.cardText{
+  float: right;
+  font-size: 11pt;
+  padding-top: 0px;
+}
+.card-body{
+  padding-top: 2px;
+  padding-bottom: 0px;
+
+}
+.card-button{
+  background-color: #ffc219;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  font-size: 10pt;
+
+}
