@@ -1,15 +1,15 @@
 #header{
   color: white;
-  border-top: solid 15px #ff8800;
+  border-top: solid 10px #ff8800;
   background: #ffc219;
-  border-bottom: solid 15px #ff8800;
+  border-bottom: solid 10px #ff8800;
 
 }
 
 #footer{
-  border-top: solid 15px #ff8800;
+  border-top: solid 10px #ff8800;
   background: #ffc219;
-  border-bottom: solid 15px #ff8800;
+  border-bottom: solid 10px #ff8800;
 }
 
 .nav{

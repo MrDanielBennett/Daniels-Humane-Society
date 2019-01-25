@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { routing } from './app.routing';
 import { AdoptComponent } from './adopt/adopt.component';
 import { GetInvolvedComponent } from './get-involved/get-involved.component';
+import { DonateComponent } from './donate/donate.component';
 
 
 
@@ -15,7 +16,8 @@ import { GetInvolvedComponent } from './get-involved/get-involved.component';
     AppComponent,
     HomeComponent,
     AdoptComponent,
-    GetInvolvedComponent
+    GetInvolvedComponent,
+    DonateComponent
   ],
   imports: [
     BrowserModule,
