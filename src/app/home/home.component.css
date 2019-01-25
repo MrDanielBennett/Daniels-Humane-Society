@@ -2,7 +2,7 @@
   border-top: solid 15px Orange;
   background: yellow;
   border-bottom: solid 15px Orange;
-
+  margin-top: -8px;
 }
 #body{
   background: linear-gradient(rgba(255,255,255,1), rgba(255,0,0,0)), url('https://images.unsplash.com/photo-1444212477490-ca407925329e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80');
