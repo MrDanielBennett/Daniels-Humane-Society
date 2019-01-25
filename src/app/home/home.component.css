@@ -1,6 +1,6 @@
 
 #body{
-  background: linear-gradient(rgba(255,255,255,1), rgba(255,0,0,0)), url('https://images.unsplash.com/photo-1444212477490-ca407925329e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80');
+  background: linear-gradient(rgba(255,255,255,1), rgba(255,0,0,0)), url('https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
   background-position: fixed;
   padding-top: 0px;
   margin-top: 0px;
@@ -21,6 +21,7 @@
 .card{
   margin-left: 50px;
   margin-bottom: 20px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 .card-header{
   background-color: #3d8cdb;
@@ -48,8 +49,8 @@
 .image{
   float: left;
 }
-#dog-hat{
-  height: 150px;
+.pet-img{
+  height: 155px;
   width: 120px;
   filter: grayscale(100%);
 }
@@ -69,5 +70,7 @@
   font-weight: bold;
   color: white;
   font-size: 10pt;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  margin-bottom: 5px;
 
 }
