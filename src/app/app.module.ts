@@ -8,6 +8,11 @@ import { routing } from './app.routing';
 import { AdoptComponent } from './adopt/adopt.component';
 import { GetInvolvedComponent } from './get-involved/get-involved.component';
 import { DonateComponent } from './donate/donate.component';
+import { ReportCrueltyComponent } from './report-cruelty/report-cruelty.component';
+import { TrainingComponent } from './training/training.component';
+import { ServicesComponent } from './services/services.component';
+import { VistUsComponent } from './vist-us/vist-us.component';
+import { VisitUsComponent } from './visit-us/visit-us.component';
 
 
 
@@ -17,7 +22,12 @@ import { DonateComponent } from './donate/donate.component';
     HomeComponent,
     AdoptComponent,
     GetInvolvedComponent,
-    DonateComponent
+    DonateComponent,
+    ReportCrueltyComponent,
+    TrainingComponent,
+    ServicesComponent,
+    VistUsComponent,
+    VisitUsComponent
   ],
   imports: [
     BrowserModule,
