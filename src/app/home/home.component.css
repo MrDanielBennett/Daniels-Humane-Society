@@ -12,6 +12,7 @@
   font-style: italic;
   text-align: center;
 }
+
 #bigger-text{
   font-weight: bold;
   font-size: 70pt;
@@ -23,12 +24,13 @@
   margin-bottom: 20px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
+
 .card-header{
   background-color: #3d8cdb;
   color: white;
   padding-bottom: 1px;
-
 }
+
 .flavor{
   padding-bottom: 30px;
 }
@@ -41,6 +43,7 @@
   margin-bottom: 0px;
   text-shadow: 2px 2px black;
 }
+
 .flavor-text-header{
   color: white;
   text-align: center;
@@ -49,24 +52,28 @@
   margin-bottom: 0px;
   text-shadow: 2px 2px black;
 }
+
 .image{
   float: left;
 }
+
 .pet-img{
   height: 155px;
   width: 120px;
   filter: grayscale(100%);
 }
+
 .cardText{
   float: right;
   font-size: 11pt;
   padding-top: 0px;
 }
+
 .card-body{
   padding-top: 2px;
   padding-bottom: 0px;
-
 }
+
 .card-button{
   background-color: #ffc219;
   border-radius: 5px;
@@ -75,8 +82,11 @@
   font-size: 10pt;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
   margin-bottom: 5px;
-
+}.social{
+  margin-left: 25px;
+  margin-right: 25px;
 }
+
 a{
   color: white;
 }
