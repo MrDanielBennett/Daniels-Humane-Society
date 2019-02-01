@@ -1,8 +1,26 @@
 .content{
   margin-bottom: -8px;
   background: white;
-
+  padding-bottom: 10px;
 }
+
+.available-dogs{
+  margin-left: 100px;
+}
+
+.content-body{
+  padding-top: 10px;
+  padding-left: 3px;
+}
+.cardText{
+  font-size: 9pt;
+}
+.card-header{
+  color: white;
+  background-color: #3d8cdb;
+  font-weight: bold;
+}
+
 
 .header {
   color: white;
