@@ -10,3 +10,11 @@
   padding: 10px;
 
 }
+
+.outside{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: #6ba1b8;
+}
