@@ -1,4 +1,12 @@
-.container {
+.content{
   margin-bottom: -8px;
   background: white;
+
+}
+
+.header {
+  color: white;
+  background: #ff8800;
+  padding: 10px;
+
 }
