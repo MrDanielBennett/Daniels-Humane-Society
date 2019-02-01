@@ -11,7 +11,6 @@ import { DonateComponent } from './donate/donate.component';
 import { ReportCrueltyComponent } from './report-cruelty/report-cruelty.component';
 import { TrainingComponent } from './training/training.component';
 import { ServicesComponent } from './services/services.component';
-import { VistUsComponent } from './vist-us/vist-us.component';
 import { VisitUsComponent } from './visit-us/visit-us.component';
 
 
@@ -26,7 +25,6 @@ import { VisitUsComponent } from './visit-us/visit-us.component';
     ReportCrueltyComponent,
     TrainingComponent,
     ServicesComponent,
-    VistUsComponent,
     VisitUsComponent
   ],
   imports: [
