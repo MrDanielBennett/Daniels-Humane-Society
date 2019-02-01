@@ -29,6 +29,30 @@
     </div>
     </div>
     <div class="available-dogs">
+
+
+<div *ngFor="let dog of dogs" class=card>
+  <img class="card-img-top" src="{{dog.url}}">
+  <div class="card-body">
+    <p>{{dog.name}}</p>
+    <p>Breed: {{dog.breed}}</p>
+    <p>{{dog.description}}</p>
+    <p>Is this Dog Avaible? {{adoptionStatus}}</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="row">
       <div class="col-md-4">
         <div class="card dog" style="width: 10rem;">
