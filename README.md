@@ -14,19 +14,45 @@ _This webpage is a clone of Oregon's humane Society webpage which has links to p
 
 * Clone or Download from Github @ https://github.com/MrDanielBennett/Daniels-Humane-Society.git
 * In root of directory run "$ npm install"
-* Next run "$ npm run build"
 * Run "$ng serve"
 * open up a window on http://localhost:4200/
 * To navigate the page click on the buttons on the home page or the navigation bar on the header, to return to the home page click on the title (Daniel's Humane Society)
 
+ or
+
+ *navigate to site @ https://humane-society-clone.firebaseapp.com
+
 ## Future development
+_As of 02/01/19 this clones website now is:
+* linked to firebase and has a database
+* the site also has styled routes
+* a complete footer on the main page
+* short list of available dogs
+
+* links to sites social medias
+
+The next couple of steps forward for this project would be
+ * fix some minor css bugs that have appeared towards the end of the day.
+ * add the ability to add/remove pets without editing the .json file
+ * have more databases that include users emails for a mailing list
+
+* have forms for the  email sign up
+* have a search for certain pets
+* have another database for other kinds of animals
+* fill out the rest of the routes with content.
+
+
+
+
+
 _As of 01/25/19 this cloned website is pretty much just the html css side of the webpage along with the routes connected. The next step in flushing out this website is to start adding the features that are running on the other pages such as the adopting a pet, signing up for the emails, including a database of pets that can be added and edited if a pet is adopted. There are also a few more css items that need to be added to the main page which mostly consists of the footer and filling out some content boxes and showing the current amount of "adopted pets" there are. The final step is to deploy this webpage to Firebase which is needed for running and editing a pet database for this site._
 
 
 
 ## Known Bugs
 
-_No known bugs as of 01/18/19_
+_* data appears vertically and not horizontally in adopt page
+* page doesn't show if animal is adopted or not. _
 
 ## Support and contact details
 

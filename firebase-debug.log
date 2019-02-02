@@ -1,0 +1,57 @@
+[debug] [2019-02-02T00:46:09.880Z] ----------------------------------------------------------------------
+[debug] [2019-02-02T00:46:09.882Z] Command:       /usr/local/Cellar/node/11.6.0/bin/node /usr/local/bin/firebase init
+[debug] [2019-02-02T00:46:09.882Z] CLI Version:   6.3.1
+[debug] [2019-02-02T00:46:09.882Z] Platform:      darwin
+[debug] [2019-02-02T00:46:09.882Z] Node Version:  v11.6.0
+[debug] [2019-02-02T00:46:09.883Z] Time:          Fri Feb 01 2019 16:46:09 GMT-0800 (Pacific Standard Time)
+[debug] [2019-02-02T00:46:09.883Z] ----------------------------------------------------------------------
+[debug]
+[debug] [2019-02-02T00:46:09.891Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-02T00:46:09.892Z] > authorizing via signed-in user
+[info]
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/daniel/Desktop/daniels-humane-society
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info]
+=== Project Setup
+[info]
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add,
+[info] but for now we'll just set up a default project.
+[info]
+[info] i  .firebaserc already has a default project, skipping
+[info]
+=== Database Setup
+[info]
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info]
+[info] Skipping overwrite of Database Rules.
+[info] The rules defined in database.rules.json will be published when you do firebase deploy.
+[info]
+=== Hosting Setup
+[info]
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info]
+[debug] [2019-02-02T00:47:57.314Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json
+
+[debug] [2019-02-02T00:47:57.694Z] <<< HTTP RESPONSE 200
+[info] ✔  Wrote public/index.html
+[info]
+[info] i  Writing configuration info to firebase.json...
+[info] i  Writing project information to .firebaserc...
+[info]
+[info] ✔  Firebase initialization complete!
