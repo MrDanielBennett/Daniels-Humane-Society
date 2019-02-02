@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { routing } from './app.routing';
+import { HttpModule } from '@angular/http';
 import { AdoptComponent } from './adopt/adopt.component';
 import { GetInvolvedComponent } from './get-involved/get-involved.component';
 import { DonateComponent } from './donate/donate.component';
@@ -40,7 +41,10 @@ export const firebaseConfig = {
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
